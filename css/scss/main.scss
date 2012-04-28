@@ -1,0 +1,28 @@
+@import "modules/reset";
+
+body {
+    background-color: #1b1b1b;
+    overflow: hidden;
+}
+
+#type {
+    -webkit-mask-image: image-url("newyork.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center 45%;
+    -webkit-mask-size: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: -90px;
+    width: 100%;
+    z-index: 1;
+}
+
+#main {
+    -webkit-mask-image: image-url("skyline.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center bottom;
+    -webkit-mask-size: 98.1%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
