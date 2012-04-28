@@ -2,13 +2,12 @@
 
 body {
     background-color: #1b1b1b;
+    font-family: helvetica, arial, sans-serif;
     overflow: hidden;
 }
 
 #type {
-    -webkit-mask-image: image-url("newyork.svg");
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center 45%;
+    -webkit-mask: image-url("newyork.svg") no-repeat center 35%;
     -webkit-mask-size: 100%;
     opacity: 0.5;
     position: absolute;
@@ -18,11 +17,30 @@ body {
 }
 
 #main {
-    -webkit-mask-image: image-url("skyline.svg");
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center bottom;
+    -webkit-mask: image-url("skyline.svg") no-repeat center 110%;
     -webkit-mask-size: 98.1%;
     position: absolute;
     width: 100%;
     z-index: 2;
+}
+
+a {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0.8em 0;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 3;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
 }

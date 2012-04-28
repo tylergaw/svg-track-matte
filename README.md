@@ -1,4 +1,4 @@
 svg-track-matte
 ===============
 
-SVG Video Masks
+SVG Video Masks. Chrome only at the moment.
