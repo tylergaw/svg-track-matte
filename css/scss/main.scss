@@ -7,13 +7,12 @@ body {
 }
 
 #type {
-    -webkit-mask: image-url("newyork.svg") no-repeat center 35%;
-    -webkit-mask-size: 100%;
+    -webkit-mask: image-url("newyork.svg") no-repeat center 40%;
+    -webkit-mask-size: 105%;
     opacity: 0.5;
     position: absolute;
     top: -90px;
     width: 100%;
-    z-index: 1;
 }
 
 #main {
@@ -21,7 +20,6 @@ body {
     -webkit-mask-size: 98.1%;
     position: absolute;
     width: 100%;
-    z-index: 2;
 }
 
 a {
