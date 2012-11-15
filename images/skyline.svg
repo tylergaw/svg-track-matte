@@ -3,17 +3,17 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" id="skyline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="696.987px" height="354px" viewBox="0 0 696.987 354" enable-background="new 0 0 696.987 354" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="348.4878" y1="321" x2="348.4878" y2="292.5">
-	<stop  offset="0" style="stop-color:#FFFFFF"/>
-	<stop  offset="0.1166" style="stop-color:#D3D3D3"/>
-	<stop  offset="0.2994" style="stop-color:#939393"/>
-	<stop  offset="0.4743" style="stop-color:#5F5F5F"/>
-	<stop  offset="0.6364" style="stop-color:#363636"/>
-	<stop  offset="0.783" style="stop-color:#181818"/>
-	<stop  offset="0.909" style="stop-color:#060606"/>
-	<stop  offset="1" style="stop-color:#000000"/>
-</linearGradient>
-<path fill="url(#SVGID_1_)" d="M-0.013,123l8.5-0.5c0,0-1-17,0-19s6.5-2.5,13.5-2s26,1.5,26,1.5l0.5,28.5c0,0,4,2,4-0.5
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-0.013" y="4" width="697" height="350">
+		<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+		<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="-0.013" y="4" width="697" height="350" id="SVGID_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+	</g>
+</mask>
+<path mask="url(#SVGID_1_)" d="M-0.013,123l8.5-0.5c0,0-1-17,0-19s6.5-2.5,13.5-2s26,1.5,26,1.5l0.5,28.5c0,0,4,2,4-0.5
 	s0-15.5,0-15.5s4.5-1.5,9-1.5s9,0,9,0l1.5-6.5c0,0,1.5-1.5,3.5-2s8-1,11-1s5.5,0,7.5,1s2.5,3.5,2.5,3.5l11.5,0.5v6c0,0,13-2,14.5-1
 	s2-5,2-7s-0.5-4,2-6.5s2.5-11,2.5-11l2,9c0,0,1-0.5,2,2.5s1.5,5.5,1.5,7.5s1,9,1,9h10.5c0,0,0.5,0.5,0.5,3s0,23,0,23l0.5,3l2-0.5
 	l1-51.5V81.5l2-1V64l3-1l0.5-7l2-3.5l3-1c0,0,3.5-4,3.5-6s0.5-15.5,0.5-15.5l2-3.5l1.5-22.5l1,21.5l3.5,1.5v4.5l1,14.5l3,3l1,2.5
